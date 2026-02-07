@@ -9,7 +9,7 @@ function switchLang(lang) {
 
     // Update content
     renderContent(lang);
-    
+
     // Smooth scroll to top
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -17,10 +17,10 @@ function switchLang(lang) {
 function renderContent(lang) {
     const data = translations[lang];
     const container = document.getElementById('content');
-    
+
     // Fade out
     container.style.opacity = '0';
-    
+
     setTimeout(() => {
         let html = `
             <div class="hero">
@@ -40,7 +40,7 @@ function renderContent(lang) {
                     <h2>${section.title}</h2>
                     <div class="section-elements">
             `;
-            
+
             section.elements.forEach(el => {
                 if (el.type === 'hr') {
                     html += '<hr>';
@@ -52,7 +52,7 @@ function renderContent(lang) {
                     `;
                 } else if (el.type === 'arabic') {
                     html += `
-                        <div class="arabic" style="font-size: 1.8rem; margin: 20px 0;">
+                        <div class="arabic-inline">
                             ${el.content}
                         </div>
                     `;
@@ -68,13 +68,13 @@ function renderContent(lang) {
         });
 
         container.innerHTML = html;
-        
+
         // Update footer
         const footer = document.getElementById('footer-content');
         footer.innerHTML = `
             <div class="footer-arabic">${data.footer.arabic}</div>
-            <p style="font-size: 1.2rem; color: var(--primary); font-weight: 700;">${data.footer.blessing}</p>
-            <p style="margin-top: 10px; color: var(--text-muted); font-style: italic;">${data.footer.meaning}</p>
+            <p class="footer-blessing">${data.footer.blessing}</p>
+            <p class="footer-meaning">${data.footer.meaning}</p>
         `;
 
         // Fade in
