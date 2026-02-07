@@ -178,11 +178,11 @@ const translations = {
                 "elements": [
                     {
                         "type": "h3",
-                        "content": "Entering the Masjid:"
+                        "content": "Entering Masjid al-Haram:"
                     },
                     {
-                        "type": "ol",
-                        "content": "<li><strong>Enter with the right foot first</strong></li>\n            <li><strong>Say the dua for entering the mosque:</strong></li>"
+                        "type": "p",
+                        "content": "Enter Masjid al-Haram (The Sacred Mosque) with your right foot first and say the dua for entering the mosque:"
                     },
                     {
                         "type": "arabic",
@@ -197,29 +197,9 @@ const translations = {
                         "content": "<strong>Meaning:</strong> \"In the name of Allah. O Allah, send prayers upon Muhammad. O Allah, open for me the gates of Your mercy.\""
                     },
                     {
-                        "type": "h3",
-                        "content": "Upon First Seeing the Kaaba:"
-                    },
-                    {
-                        "type": "p",
-                        "content": "This is a very special moment - your dua is likely to be accepted!"
-                    },
-                    {
-                        "type": "ol",
-                        "content": "<li><strong>Raise your hands</strong></li>\n            <li><strong>Say Allahu Akbar (Allah is the Greatest) three times</strong></li>\n            <li><strong>Recite:</strong></li>"
-                    },
-                    {
-                        "type": "arabic",
-                        "content": "اللَّهُمَّ زِدْ هَذَا الْبَيْتَ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَمَهَابَةً، وَزِدْ مَنْ شَرَّفَهُ وَكَرَّمَهُ مِمَّنْ حَجَّهُ أَوْ اعْتَمَرَهُ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَبِرًّا"
-                    },
-                    {
-                        "type": "p",
-                        "content": "Allahumma zid hadha al-bayta tashrifan wa ta'dhiman wa takriman wa mahaba, wa zid man sharrafahu wa karramahu mimman hajjahu awi'tamarahu tashrifan wa ta'dhiman wa takriman wa birra"
-                    },
-                    {
                         "type": "callout",
-                        "style": "note",
-                        "content": "<p><strong>Note:</strong> The dua upon seeing the Kaaba is from the practice of some companions and scholars, though not directly narrated from the Prophet ﷺ. What is most important is to make sincere dua at this blessed moment.</p>"
+                        "style": "success",
+                        "content": "<p><strong>Continue reciting the Talbiyah</strong> until you see the Kaaba and begin the Tawaf.</p>"
                     },
                     {
                         "type": "hr"
@@ -648,19 +628,11 @@ const translations = {
                 "elements": [
                     {
                         "type": "h3",
-                        "content": "Sebelum Memasuki Makkah:"
-                    },
-                    {
-                        "type": "ul",
-                        "content": "<li><strong>Mandi (ghusl)</strong> jika memungkinkan, ini adalah sunnah Nabi ﷺ</li>\n            <li><strong>Ucapkan Talbiyah</strong> sesering mungkin</li>"
-                    },
-                    {
-                        "type": "h3",
                         "content": "Memasuki Masjidil Haram:"
                     },
                     {
-                        "type": "ol",
-                        "content": "<li><strong>Masuk dengan kaki kanan terlebih dahulu</strong></li>\n            <li><strong>Ucapkan doa untuk memasuki masjid:</strong></li>"
+                        "type": "p",
+                        "content": "Masuklah ke Masjidil Haram (Masjid Suci) dengan kaki kanan terlebih dahulu dan ucapkan doa untuk memasuki masjid:"
                     },
                     {
                         "type": "arabic",
@@ -675,24 +647,9 @@ const translations = {
                         "content": "<strong>Artinya:</strong> \"Dengan nama Allah. Ya Allah, limpahkanlah shalawat kepada Muhammad. Ya Allah, bukakanlah untukku pintu-pintu rahmat-Mu.\""
                     },
                     {
-                        "type": "h3",
-                        "content": "Saat Pertama Kali Melihat Ka'bah:"
-                    },
-                    {
-                        "type": "p",
-                        "content": "Ini adalah momen yang sangat istimewa - doa Anda kemungkinan akan dikabulkan!"
-                    },
-                    {
-                        "type": "ol",
-                        "content": "<li><strong>Angkat tangan Anda</strong></li>\n            <li><strong>Ucapkan Allahu Akbar (Allah Maha Besar) tiga kali</strong></li>\n            <li><strong>Baca:</strong></li>"
-                    },
-                    {
-                        "type": "arabic",
-                        "content": "اللَّهُمَّ زِدْ هَذَا الْبَيْتَ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَمَهَابَةً، وَزِدْ مَنْ شَرَّفَهُ وَكَرَّمَهُ مِمَّنْ حَجَّهُ أَوْ اعْتَمَرَهُ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَبِرًّا"
-                    },
-                    {
-                        "type": "p",
-                        "content": "Allahumma zid hadha al-bayta tashrifan wa ta'dhiman wa takriman wa mahaba, wa zid man sharrafahu wa karramahu mimman hajjahu awi'tamarahu tashrifan wa ta'dhiman wa takriman wa birra"
+                        "type": "callout",
+                        "style": "success",
+                        "content": "<p><strong>Teruslah mengucapkan Talbiyah</strong> sampai Anda melihat Ka'bah dan mulai Tawaf.</p>"
                     },
                     {
                         "type": "hr"
