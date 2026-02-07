@@ -16,27 +16,32 @@
 <body>
     <header>
         <div class="header-content">
-            <a href="#" class="logo">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                </svg>
-                Umrah Guide
-            </a>
-            <div class="lang-switcher">
-                <button class="lang-btn active" onclick="switchLang('en')">EN</button>
-                <button class="lang-btn" onclick="switchLang('id')">ID</button>
-                <button class="lang-btn" onclick="switchLang('ru')">RU</button>
+            <a href="#" class="logo">Umrah Guide</a>
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" onclick="switchLang('en')">EN</button>
+                    <button class="lang-btn" onclick="switchLang('id')">ID</button>
+                    <button class="lang-btn" onclick="switchLang('ru')">RU</button>
+                </div>
+                <button id="menu-toggle" class="menu-toggle" aria-label="Toggle Navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
         </div>
     </header>
 
-    <div class="container">
-        <div id="content" class="content-fade">
-            <!-- Content will be injected here by app.js -->
-        </div>
+    <div class="container main-layout">
+        <nav id="side-nav" class="side-nav">
+            <!-- Navigation links will be injected here -->
+        </nav>
+        <main id="content">
+            <!-- Content will be injected here -->
+        </main>
     </div>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
 
     <footer>
         <div id="footer-content">
