@@ -9,7 +9,57 @@ const translations = {
         "sections": [
             {
                 "number": "1",
-                "title": "Preparation Before Reaching the Miqat",
+                "title": "What is Umrah?",
+                "elements": [
+                    {
+                        "type": "p",
+                        "content": "Umrah is the lesser pilgrimage to the sacred Kaaba in Makkah, which a Muslim can perform at any time of the year. Although Umrah is not obligatory like Hajj, it is highly recommended and brings immense reward from Allah."
+                    },
+                    {
+                        "type": "arabic",
+                        "content": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: اَلْعُمْرَةُ إِلَى الْعُمْرَةِ كَفَّارَةٌ لِمَا بَيْنَهُمَا"
+                    },
+                    {
+                        "type": "p",
+                        "content": "'An Abi Hurayrata radiyallahu 'anhu anna Rasulullahi sallallahu 'alayhi wa sallama qala: al-'umratu ila al-'umrati kaffaratun lima baynahuma"
+                    },
+                    {
+                        "type": "p",
+                        "content": "<strong>Meaning:</strong> \"Umrah to the next Umrah is an expiation (of sins) between them\" <em>(Sahih al-Bukhari & Muslim)</em>"
+                    },
+                    {
+                        "type": "hr"
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "title": "Preparation for Umrah",
+                "elements": [
+                    {
+                        "type": "h3",
+                        "content": "Before Departure:"
+                    },
+                    {
+                        "type": "ul",
+                        "content": "<li><strong>Make a sincere intention (niyyah)</strong> to perform Umrah for Allah alone</li>\n            <li><strong>Study the rituals</strong> of Umrah properly</li>\n            <li><strong>Pay off all debts</strong> if possible</li>\n            <li><strong>Ask for forgiveness</strong> from those you may have wronged</li>\n            <li><strong>Repent sincerely</strong> to Allah for all past sins</li>\n            <li><strong>Write a will</strong> (always a good practice before traveling)</li>"
+                    },
+                    {
+                        "type": "h3",
+                        "content": "What to Take:"
+                    },
+                    {
+                        "type": "ul",
+                        "content": "<li>Ihram clothing (two white unstitched cloths for men)</li>\n            <li>Comfortable shoes (open for men, so top of foot and heel are visible)</li>\n            <li>Unscented soap and shampoo</li>\n            <li>Medication (if needed)</li>\n            <li>A small book with duas</li>\n            <li>Money for needs and Sadaqah</li>"
+                    },
+                    {
+                        "type": "hr"
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "title": "Entering Ihram",
                 "elements": [
                     {
                         "type": "h3",
@@ -30,70 +80,35 @@ const translations = {
                     },
                     {
                         "type": "h3",
-                        "content": "Before the Miqat:"
+                        "content": "Preparation for Ihram:"
                     },
                     {
                         "type": "ol",
-                        "content": "<li><strong>Perform ghusl (full bath):</strong>\n                <ul>\n                    <li>It is Sunnah to perform ghusl before entering Ihram</li>\n                    <li>Use unscented soap</li>\n                    <li>Make proper wudu and complete the ghusl</li>\n                    <li>This can be done at home/hotel before heading to Miqat or on the plane</li>\n                </ul>\n            </li>\n            <li><strong>Apply perfume (before wearing Ihram):</strong>\n                <ul>\n                    <li>It is Sunnah to apply perfume to your body (not the Ihram clothes)</li>\n                    <li>Apply to head, beard, and body</li>\n                    <li><strong>Important:</strong> This is done BEFORE wearing the Ihram garments</li>\n                    <li>The perfume may remain on the body even after wearing Ihram - this is permissible</li>\n                </ul>\n            </li>"
+                        "content": "<li><strong>Perform ghusl (full bath):</strong>\n                <ul>\n                    <li>It is Sunnah to perform ghusl before entering Ihram</li>\n                    <li>Use unscented soap</li>\n                    <li>Make proper wudu and complete the ghusl</li>\n                </ul>\n            </li>\n            <li><strong>Apply perfume (before wearing Ihram):</strong>\n                <ul>\n                    <li>Apply to head, beard, and body (not the Ihram clothes)</li>\n                    <li><strong>Important:</strong> This is done BEFORE wearing the Ihram garments</li>\n                </ul>\n            </li>"
                     },
                     {
-                        "type": "hr"
-                    }
-                ]
-            },
-            {
-                "number": "2",
-                "title": "Putting on Ihram Clothing",
-                "elements": [
-                    {
                         "type": "h3",
+                        "content": "Putting on Ihram Clothing:"
+                    },
+                    {
+                        "type": "h4",
                         "content": "For Men:"
                     },
                     {
                         "type": "ul",
-                        "content": "<li><strong>Izar:</strong> Two white, unstitched pieces of cloth\n                <ul>\n                    <li>One piece wrapped around the waist covering the lower body (from navel to below knees)</li>\n                    <li>Second piece draped over the upper body (covering one or both shoulders)</li>"
+                        "content": "<li>Two white, unstitched pieces of cloth (Izar and Rida)</li>\n            <li>No sewn clothing (no shirts, pants, or undergarments)</li>\n            <li>No head covering (no caps, hats, or hoods)</li>\n            <li>No shoes that cover the heels or ankles</li>"
                     },
                     {
-                        "type": "ul",
-                        "content": "<li>No sewn clothing (no shirts, pants, or undergarments)</li>\n                    <li>No head covering (no caps, hats, turbans, or hoods)</li>\n                    <li>No shoes that cover the heels</li>"
-                    },
-                    {
-                        "type": "callout",
-                        "style": "tip",
-                        "content": "<p><strong>Tip:</strong> It's recommended to practice wrapping the Ihram before your journey. Make sure it is secure but comfortable. You can use safety pins or a belt to keep the lower garment in place.</p>"
-                    },
-                    {
-                        "type": "h3",
+                        "type": "h4",
                         "content": "For Women:"
                     },
                     {
                         "type": "ul",
-                        "content": "<li><strong>Regular modest clothing:</strong> Any color is permissible\n                <ul>\n                    <li>Loose-fitting garments that cover the entire body except face and hands</li>\n                    <li>Simple, modest dress is recommended</li>"
-                    },
-                    {
-                        "type": "ul",
-                        "content": "<li>Do not wear niqab (face veil) or burqa</li>\n                    <li>Do not wear gloves</li>\n                    <li>The face and hands should remain uncovered</li>\n                    <li>However, you may loosely drape a scarf over your face for privacy without it touching the face</li>"
-                    },
-                    {
-                        "type": "hr"
-                    }
-                ]
-            },
-            {
-                "number": "3",
-                "title": "Making the Intention and Talbiyah",
-                "elements": [
-                    {
-                        "type": "h3",
-                        "content": "Timing:"
-                    },
-                    {
-                        "type": "p",
-                        "content": "The intention and Talbiyah should be made <strong>at or before crossing the Miqat</strong>. If flying, this would be announced by the cabin crew before reaching the Miqat boundary."
+                        "content": "<li>Regular modest clothing (any color is permissible)</li>\n            <li>Loose-fitting garments that cover the entire body except face and hands</li>\n            <li>Do not wear niqab (face veil) or gloves while in Ihram</li>"
                     },
                     {
                         "type": "h3",
-                        "content": "The Intention (Niyyah):"
+                        "content": "Intention and Talbiyah:"
                     },
                     {
                         "type": "p",
@@ -101,11 +116,11 @@ const translations = {
                     },
                     {
                         "type": "arabic",
-                        "content": "لَبَّيْكَ اللَّهُمَّ بِعُمْرَةٍ"
+                        "content": "لَبَّيْكَ اللَّهُمَّ عُمْرَةً"
                     },
                     {
                         "type": "p",
-                        "content": "Labbayka Allahumma bi 'Umrah"
+                        "content": "Labbayka Allahumma 'umratan"
                     },
                     {
                         "type": "p",
@@ -113,31 +128,23 @@ const translations = {
                     },
                     {
                         "type": "p",
-                        "content": "<strong>If you fear not being able to complete Umrah due to illness or other reasons, say:</strong>"
+                        "content": "<strong>Conditional Intention (if you fear obstacles):</strong>"
                     },
                     {
                         "type": "arabic",
-                        "content": "إِنْ حَبَسَنِي حَابِسٌ فَمَحِلِّي حَيْثُ حَبَسْتَنِي"
+                        "content": "فَإِنْ حَبَسَنِي حَابِسٌ فَمَحِلِّي حَيْثُ حَبَسْتَنِي"
                     },
                     {
                         "type": "p",
-                        "content": "In habasani habisun fa mahilli haythu habastani"
+                        "content": "Fa-in habasani habisun fa-mahalli haythu habastani"
                     },
                     {
                         "type": "p",
                         "content": "<strong>Meaning:</strong> \"If any obstacle prevents me, then I will exit Ihram wherever You prevent me\""
                     },
                     {
-                        "type": "p",
-                        "content": "This is a conditional intention. If you cannot complete Umrah due to valid reasons, you may exit Ihram without penalty."
-                    },
-                    {
-                        "type": "h3",
-                        "content": "The Talbiyah:"
-                    },
-                    {
-                        "type": "p",
-                        "content": "After making your intention, immediately begin reciting the Talbiyah loudly (men) or quietly (women):"
+                        "type": "h4",
+                        "content": "The Talbiyah (recite frequently):"
                     },
                     {
                         "type": "arabic",
@@ -152,9 +159,13 @@ const translations = {
                         "content": "<strong>Meaning:</strong> \"Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Verily all praise, grace and sovereignty belong to You. You have no partner.\""
                     },
                     {
+                        "type": "h3",
+                        "content": "Prohibitions During Ihram:"
+                    },
+                    {
                         "type": "callout",
-                        "style": "note",
-                        "content": "<p><strong>Important:</strong></p>\n            <ul>\n                <li><strong>Men:</strong> Should recite Talbiyah loudly</li>\n                <li><strong>Women:</strong> Should recite quietly enough that only they can hear</li>\n                <li>Repeat the Talbiyah frequently throughout your journey and Umrah</li>\n                <li>Continue until you start Tawaf (circling the Kaaba)</li>\n            </ul>"
+                        "style": "important",
+                        "content": "<p><strong>For everyone:</strong></p>\n            <ul>\n                <li>No perfume or scented products</li>\n                <li>No cutting hair or nails</li>\n                <li>No sexual relations or marriage contracts</li>\n                <li>No hunting or killing insects</li>\n            </ul>\n            <p><strong>Specifically for men:</strong></p>\n            <ul>\n                <li>No covering the head</li>\n                <li>No stitched/fitted clothing</li>\n            </ul>\n            <p><strong>Specifically for women:</strong></p>\n            <ul>\n                <li>No niqab (face veil) or gloves</li>\n            </ul>"
                     },
                     {
                         "type": "hr"
@@ -163,45 +174,7 @@ const translations = {
             },
             {
                 "number": "4",
-                "title": "Prohibitions During Ihram",
-                "elements": [
-                    {
-                        "type": "p",
-                        "content": "Once you enter Ihram, the following are prohibited for both men and women:"
-                    },
-                    {
-                        "type": "ol",
-                        "content": "<li><strong>Applying perfume or scented products:</strong>\n                <ul>\n                    <li>No perfume on body or clothes (the perfume applied before Ihram is fine)</li>\n                    <li>Avoid scented soaps, shampoos, deodorants</li>\n                    <li>Avoid scented oils or creams</li>\n                </ul>\n            </li>\n            <li><strong>Cutting or removing hair from any part of the body</strong></li>\n            <li><strong>Clipping nails (fingers or toes)</strong></li>\n            <li><strong>Engaging in sexual relations or activities</strong></li>\n            <li><strong>Marriage contracts (proposing, conducting, or witnessing)</strong></li>\n            <li><strong>Hunting land animals or assisting in hunting</strong></li>\n            <li><strong>Killing lice or insects on your body</strong> (if they fall off themselves, that's okay)</li>"
-                    },
-                    {
-                        "type": "h3",
-                        "content": "Specific to Men:"
-                    },
-                    {
-                        "type": "ul",
-                        "content": "<li><strong>Covering the head</strong> with anything (caps, hats, turbans, hoodies)</li>\n            <li><strong>Wearing stitched/fitted clothing</strong> (shirts, pants, underwear, socks that cover ankles)</li>"
-                    },
-                    {
-                        "type": "h3",
-                        "content": "Specific to Women:"
-                    },
-                    {
-                        "type": "ul",
-                        "content": "<li><strong>Wearing niqab or burqa</strong> (face veils that are tied to the face)</li>\n            <li><strong>Wearing gloves</strong></li>"
-                    },
-                    {
-                        "type": "callout",
-                        "style": "important",
-                        "content": "<p><strong>What IS Allowed:</strong></p>\n            <ul>\n                <li>Bathing and showering with unscented soap</li>\n                <li>Changing Ihram garments (for men)</li>\n                <li>Wearing a belt, watch, glasses, rings (without perfume)</li>\n                <li>Taking necessary medication</li>\n                <li>Using an umbrella or shade</li>\n            </ul>"
-                    },
-                    {
-                        "type": "hr"
-                    }
-                ]
-            },
-            {
-                "number": "5",
-                "title": "Entering Masjid al-Haram and Seeing the Kaaba",
+                "title": "Arrival in Makkah",
                 "elements": [
                     {
                         "type": "h3",
@@ -209,15 +182,35 @@ const translations = {
                     },
                     {
                         "type": "ol",
-                        "content": "<li><strong>Enter with the right foot first</strong></li>\n            <li><strong>Say the dua for entering the mosque:</strong>\n                <div class=\"arabic\">بِسْمِ اللهِ، اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ</div>\n                <p class=\"transliteration\">Bismillah, Allahumma salli 'ala Muhammad, Allahumma aftah li abwaba rahmatik</p>\n                <p><strong>Meaning:</strong> \"In the name of Allah. O Allah, send prayers upon Muhammad. O Allah, open for me the gates of Your mercy.\"</p>\n            </li>"
+                        "content": "<li><strong>Enter with the right foot first</strong></li>\n            <li><strong>Say the dua for entering the mosque:</strong></li>"
+                    },
+                    {
+                        "type": "arabic",
+                        "content": "بِسْمِ اللهِ، اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Bismillah, Allahumma salli 'ala Muhammad, Allahumma aftah li abwaba rahmatik"
+                    },
+                    {
+                        "type": "p",
+                        "content": "<strong>Meaning:</strong> \"In the name of Allah. O Allah, send prayers upon Muhammad. O Allah, open for me the gates of Your mercy.\""
                     },
                     {
                         "type": "h3",
                         "content": "Upon First Seeing the Kaaba:"
                     },
                     {
+                        "type": "p",
+                        "content": "This is a very special moment - your dua is likely to be accepted!"
+                    },
+                    {
+                        "type": "ol",
+                        "content": "<li><strong>Raise your hands</strong></li>\n            <li><strong>Say Allahu Akbar (Allah is the Greatest) three times</strong></li>\n            <li><strong>Recite:</strong></li>"
+                    },
+                    {
                         "type": "arabic",
-                        "content": "<p>This is a very special moment - your dua is likely to be accepted!</p>\n            <ol>\n                <li><strong>Raise your hands</strong></li>\n                <li><strong>Say Allahu Akbar (Allah is the Greatest) three times</strong></li>\n                <li><strong>Recite:</strong>\n                    <div class=\"arabic\">اللَّهُمَّ زِدْ هَذَا الْبَيْتَ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَمَهَابَةً، وَزِدْ مَنْ شَرَّفَهُ وَكَرَّمَهُ مِمَّنْ حَجَّهُ أَوْ اعْتَمَرَهُ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَبِرًّا"
+                        "content": "اللَّهُمَّ زِدْ هَذَا الْبَيْتَ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَمَهَابَةً، وَزِدْ مَنْ شَرَّفَهُ وَكَرَّمَهُ مِمَّنْ حَجَّهُ أَوْ اعْتَمَرَهُ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَبِرًّا"
                     },
                     {
                         "type": "p",
@@ -234,7 +227,7 @@ const translations = {
                 ]
             },
             {
-                "number": "6",
+                "number": "5",
                 "title": "Tawaf - Circling the Kaaba",
                 "elements": [
                     {
@@ -259,7 +252,23 @@ const translations = {
                     },
                     {
                         "type": "ol",
-                        "content": "<li><strong>Keep the Kaaba on your left side</strong> as you circle counterclockwise</li>\n            <li><strong>Men should perform Raml in first 3 circuits:</strong>\n                <ul>\n                    <li>Raml = walking briskly with short, quick steps</li>\n                    <li>Show strength but don't run or harm others</li>\n                    <li>Only in circuits 1, 2, and 3</li>\n                    <li>Walk normally in circuits 4, 5, 6, and 7</li>\n                    <li><strong>Women:</strong> Walk at normal pace for all 7 circuits</li>\n                </ul>\n            </li>\n            <li><strong>Each time you pass the Black Stone:</strong>\n                <ul>\n                    <li>Point to it with your right hand</li>\n                    <li>Say \"Allahu Akbar\"</li>\n                    <li>This marks the completion of one circuit</li>\n                </ul>\n            </li>\n            <li><strong>When passing the Yemeni Corner (Rukn al-Yamani):</strong>\n                <ul>\n                    <li><strong>If possible:</strong> Touch it with your right hand (no kissing)</li>\n                    <li><strong>If crowded:</strong> Just continue, don't point to it</li>\n                    <li>After touching (or passing) the Yemeni Corner, and before reaching the Black Stone, recite:\n                        <div class=\"arabic\">رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ</div>\n                        <p class=\"transliteration\">Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhaban-nar</p>\n                        <p><strong>Meaning:</strong> \"Our Lord, give us good in this world and good in the Hereafter, and protect us from the punishment of the Fire\"</p>\n                    </li>\n                </ul>\n            </li>\n            <li><strong>Throughout Tawaf:</strong> Make dua, recite Quran, or say dhikr - there are no specific duas required except what is mentioned above</li>"
+                        "content": "<li><strong>Keep the Kaaba on your left side</strong> as you circle counterclockwise</li>\n            <li><strong>Men should perform Raml in first 3 circuits:</strong>\n                <ul>\n                    <li>Raml = walking briskly with short, quick steps</li>\n                    <li>Show strength but don't run or harm others</li>\n                    <li>Only in circuits 1, 2, and 3</li>\n                    <li>Walk normally in circuits 4, 5, 6, and 7</li>\n                    <li><strong>Women:</strong> Walk at normal pace for all 7 circuits</li>\n                </ul>\n            </li>\n            <li><strong>Each time you pass the Black Stone:</strong>\n                <ul>\n                    <li>Point to it with your right hand</li>\n                    <li>Say \"Allahu Akbar\"</li>\n                    <li>This marks the completion of one circuit</li>\n                </ul>\n            </li>\n            <li><strong>When passing the Yemeni Corner (Rukn al-Yamani):</strong>\n                <ul>\n                    <li><strong>If possible:</strong> Touch it with your right hand (no kissing)</li>\n                    <li><strong>If crowded:</strong> Just continue, don't point to it</li>\n                    <li>After touching (or passing) the Yemeni Corner, and before reaching the Black Stone, recite:</li>\n                </ul>\n            </li>"
+                    },
+                    {
+                        "type": "arabic",
+                        "content": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhaban-nar"
+                    },
+                    {
+                        "type": "p",
+                        "content": "<strong>Meaning:</strong> \"Our Lord, give us good in this world and good in the Hereafter, and protect us from the punishment of the Fire\""
+                    },
+                    {
+                        "type": "ol",
+                        "content": "<li><strong>Throughout Tawaf:</strong> Make dua, recite Quran, or say dhikr - there are no specific duas required except what is mentioned above</li>"
                     },
                     {
                         "type": "callout",
@@ -272,15 +281,37 @@ const translations = {
                     },
                     {
                         "type": "ol",
-                        "content": "<li><strong>Men:</strong> Cover both shoulders again (remove Idtibaa)</li>\n            <li><strong>Proceed to pray 2 rakats behind Maqam Ibrahim</strong> (if possible and not crowded) or anywhere in the Haram:\n                <ul>\n                    <li>Recite Surah al-Kafirun (109) in the first rakat</li>\n                    <li>Recite Surah al-Ikhlas (112) in the second rakat</li>\n                    <li>You may recite other surahs if you don't know these</li>\n                </ul>\n            </li>"
+                        "content": "<li><strong>Men:</strong> Cover both shoulders again (remove Idtibaa)</li>\n            <li><strong>Proceed to pray 2 rakats behind Maqam Ibrahim</strong> (if possible and not crowded) or anywhere in the Haram</li>"
                     },
                     {
-                        "type": "h3",
-                        "content": "After the 2 Rakats:"
+                        "type": "hr"
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "title": "Zamzam Water",
+                "elements": [
+                    {
+                        "type": "p",
+                        "content": "After completing Tawaf and the 2 rakats, drink your fill of Zamzam water."
                     },
                     {
-                        "type": "ol",
-                        "content": "<li><strong>If possible, go to Zamzam water:</strong>\n                <ul>\n                    <li>Drink your fill</li>\n                    <li>Say: <div class=\"arabic\">اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا وَاسِعًا وَشِفَاءً مِنْ كُلِّ دَاءٍ</div>\n                    <p class=\"transliteration\">Allahumma inni as'aluka 'ilman nafi'a, wa rizqan wasi'a, wa shifa'an min kulli da</p>\n                    <p><strong>Meaning:</strong> \"O Allah, I ask You for beneficial knowledge, abundant provision, and healing from every disease\"</p></li>\n                    <li>You may pour water over your head</li>\n                    <li>Make any dua you wish - the Prophet ﷺ said: \"The water of Zamzam is for whatever it is drunk for\"</li>\n                </ul>\n            </li>\n            <li><strong>Return to the Black Stone (if possible):</strong>\n                <ul>\n                    <li>Touch or kiss it one more time</li>\n                    <li>If crowded, simply proceed to Sa'i</li>\n                </ul>\n            </li>"
+                        "type": "arabic",
+                        "content": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا وَاسِعًا وَشِفَاءً مِنْ كُلِّ دَاءٍ"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Allahumma inni as'aluka 'ilman nafi'a, wa rizqan wasi'a, wa shifa'an min kulli da'"
+                    },
+                    {
+                        "type": "p",
+                        "content": "<strong>Meaning:</strong> \"O Allah, I ask You for beneficial knowledge, abundant provision, and healing from every disease\""
+                    },
+                    {
+                        "type": "callout",
+                        "style": "tip",
+                        "content": "<p><strong>Tip:</strong> The Prophet ﷺ said: \"The water of Zamzam is for whatever it is drunk for\" - so drink it with a sincere intention and make dua.</p>"
                     },
                     {
                         "type": "hr"
@@ -448,7 +479,57 @@ const translations = {
         "sections": [
             {
                 "number": "1",
-                "title": "Persiapan Sebelum Mencapai Miqat",
+                "title": "Apa itu Umrah?",
+                "elements": [
+                    {
+                        "type": "p",
+                        "content": "Umrah adalah ziarah kecil ke Ka'bah suci di Makkah, yang dapat dilakukan oleh seorang Muslim kapan saja dalam setahun. Meskipun Umrah tidak wajib seperti Haji, ibadah ini sangat dianjurkan dan membawa pahala yang sangat besar dari Allah."
+                    },
+                    {
+                        "type": "arabic",
+                        "content": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: اَلْعُمْرَةُ إِلَى الْعُمْرَةِ كَفَّارَةٌ لِمَا بَيْنَهُمَا"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Dari Abu Hurairah radhiyallahu 'anhu bahwa Rasulullah ﷺ bersabda: \"Umrah ke Umrah berikutnya adalah penggugur dosa di antara keduanya.\""
+                    },
+                    {
+                        "type": "p",
+                        "content": "<strong>Artinya:</strong> \"Umrah ke Umrah berikutnya adalah kaffarah (penghapus dosa) di antara keduanya\" <em>(Sahih al-Bukhari & Muslim)</em>"
+                    },
+                    {
+                        "type": "hr"
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "title": "Persiapan Umrah",
+                "elements": [
+                    {
+                        "type": "h3",
+                        "content": "Sebelum Keberangkatan:"
+                    },
+                    {
+                        "type": "ul",
+                        "content": "<li><strong>Buatlah niat yang ikhlas (niyyah)</strong> untuk menunaikan Umrah semata-mata karena Allah</li>\n            <li><strong>Pelajari tata cara</strong> Umrah dengan benar</li>\n            <li><strong>Lunasi semua hutang</strong> jika memungkinkan</li>\n            <li><strong>Meminta maaf</strong> kepada orang-orang yang mungkin pernah Anda salahi</li>\n            <li><strong>Bertaubatlah dengan tulus</strong> kepada Allah atas semua dosa masa lalu</li>\n            <li><strong>Menulis surat wasiat</strong> (praktik yang baik sebelum bepergian)</li>"
+                    },
+                    {
+                        "type": "h3",
+                        "content": "Yang Harus Dibawa:"
+                    },
+                    {
+                        "type": "ul",
+                        "content": "<li>Pakaian ihram (dua lembar kain putih tidak berjahit untuk pria)</li>\n            <li>Sepatu yang nyaman (terbuka untuk pria, sehingga punggung kaki dan tumit terlihat)</li>\n            <li>Sabun dan sampo tanpa wewangian</li>\n            <li>Obat-obatan (jika diperlukan)</li>\n            <li>Buku kecil berisi doa-doa</li>\n            <li>Uang untuk keperluan dan sedekah</li>"
+                    },
+                    {
+                        "type": "hr"
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "title": "Memasuki Ihram",
                 "elements": [
                     {
                         "type": "h3",
@@ -456,7 +537,7 @@ const translations = {
                     },
                     {
                         "type": "p",
-                        "content": "Miqat adalah titik batas yang telah ditentukan dimana jamaah haji tidak boleh melewatinya tanpa memasuki keadaan ihram. Ada beberapa titik Miqat tergantung arah perjalanan Anda:"
+                        "content": "Miqat adalah titik batas yang telah ditentukan dimana jamaah tidak boleh melewatinya tanpa memasuki keadaan ihram. Ada beberapa titik Miqat tergantung arah perjalanan Anda:"
                     },
                     {
                         "type": "ul",
@@ -469,70 +550,35 @@ const translations = {
                     },
                     {
                         "type": "h3",
-                        "content": "Sebelum Miqat:"
+                        "content": "Persiapan Ihram:"
                     },
                     {
                         "type": "ol",
-                        "content": "<li><strong>Lakukan mandi besar (ghusl):</strong>\n                <ul>\n                    <li>Sunnah untuk melakukan ghusl sebelum memasuki ihram</li>\n                    <li>Gunakan sabun tanpa wewangian</li>\n                    <li>Berwudhu dengan benar dan sempurnakan ghusl</li>\n                    <li>Dapat dilakukan di rumah/hotel sebelum menuju Miqat atau di pesawat</li>\n                </ul>\n            </li>\n            <li><strong>Kenakan wewangian (sebelum mengenakan pakaian ihram):</strong>\n                <ul>\n                    <li>Sunnah untuk memakai wewangian pada tubuh (bukan pada pakaian ihram)</li>\n                    <li>Oleskan pada kepala, jenggot, dan badan</li>\n                    <li><strong>Penting:</strong> Ini dilakukan SEBELUM mengenakan kain ihram</li>\n                    <li>Wewangian boleh tetap menempel pada tubuh setelah mengenakan ihram - ini diperbolehkan</li>\n                </ul>\n            </li>"
+                        "content": "<li><strong>Lakukan mandi besar (ghusl):</strong>\n                <ul>\n                    <li>Sunnah untuk melakukan ghusl sebelum memasuki ihram</li>\n                    <li>Gunakan sabun tanpa wewangian</li>\n                    <li>Berwudhu dengan benar dan sempurnakan ghusl</li>\n                </ul>\n            </li>\n            <li><strong>Kenakan wewangian (sebelum mengenakan pakaian ihram):</strong>\n                <ul>\n                    <li>Oleskan pada kepala, jenggot, dan badan (bukan pada pakaian ihram)</li>\n                    <li><strong>Penting:</strong> Ini dilakukan SEBELUM mengenakan kain ihram</li>\n                </ul>\n            </li>"
                     },
                     {
-                        "type": "hr"
-                    }
-                ]
-            },
-            {
-                "number": "2",
-                "title": "Mengenakan Pakaian Ihram",
-                "elements": [
-                    {
                         "type": "h3",
+                        "content": "Mengenakan Pakaian Ihram:"
+                    },
+                    {
+                        "type": "h4",
                         "content": "Untuk Pria:"
                     },
                     {
                         "type": "ul",
-                        "content": "<li><strong>Izar:</strong> Dua lembar kain putih yang tidak dijahit\n                <ul>\n                    <li>Satu lembar dililitkan di pinggang menutupi tubuh bagian bawah (dari pusar hingga di bawah lutut)</li>\n                    <li>Lembar kedua diselempangkan di tubuh bagian atas (menutupi satu atau kedua bahu)</li>"
+                        "content": "<li>Dua lembar kain putih yang tidak dijahit (Izar dan Rida)</li>\n            <li>Tidak boleh pakaian berjahit (tidak boleh kemeja, celana, atau pakaian dalam)</li>\n            <li>Tidak boleh menutup kepala (tidak boleh topi, peci, atau sorban)</li>\n            <li>Tidak boleh sepatu yang menutupi tumit atau mata kaki</li>"
                     },
                     {
-                        "type": "ul",
-                        "content": "<li>Tidak boleh pakaian berjahit (tidak boleh kemeja, celana, atau pakaian dalam)</li>\n                    <li>Tidak boleh menutup kepala (tidak boleh topi, peci, sorban, atau kerudung)</li>\n                    <li>Tidak boleh sepatu yang menutupi tumit</li>"
-                    },
-                    {
-                        "type": "callout",
-                        "style": "tip",
-                        "content": "<p><strong>Tip:</strong> Disarankan untuk berlatih melilitkan ihram sebelum berangkat. Pastikan aman tetapi nyaman. Anda dapat menggunakan peniti atau ikat pinggang untuk menjaga kain bawah tetap di tempatnya.</p>"
-                    },
-                    {
-                        "type": "h3",
+                        "type": "h4",
                         "content": "Untuk Wanita:"
                     },
                     {
                         "type": "ul",
-                        "content": "<li><strong>Pakaian sopan biasa:</strong> Warna apa pun diperbolehkan\n                <ul>\n                    <li>Pakaian longgar yang menutupi seluruh tubuh kecuali wajah dan tangan</li>\n                    <li>Disarankan pakaian sederhana dan sopan</li>"
-                    },
-                    {
-                        "type": "ul",
-                        "content": "<li>Jangan memakai niqab (cadar) atau burqa</li>\n                    <li>Jangan memakai sarung tangan</li>\n                    <li>Wajah dan tangan harus tetap terbuka</li>\n                    <li>Namun, Anda boleh menjuntaikan kerudung longgar di wajah untuk privasi tanpa menyentuh wajah</li>"
-                    },
-                    {
-                        "type": "hr"
-                    }
-                ]
-            },
-            {
-                "number": "3",
-                "title": "Membuat Niat dan Talbiyah",
-                "elements": [
-                    {
-                        "type": "h3",
-                        "content": "Waktu:"
-                    },
-                    {
-                        "type": "p",
-                        "content": "Niat dan Talbiyah harus dibuat <strong>di atau sebelum melewati Miqat</strong>. Jika terbang, ini akan diumumkan oleh awak kabin sebelum mencapai batas Miqat."
+                        "content": "<li>Pakaian sopan biasa (warna apa pun diperbolehkan)</li>\n            <li>Pakaian longgar yang menutupi seluruh tubuh kecuali wajah dan tangan</li>\n            <li>Jangan memakai niqab (cadar) atau sarung tangan selama ihram</li>"
                     },
                     {
                         "type": "h3",
-                        "content": "Niat:"
+                        "content": "Niat dan Talbiyah:"
                     },
                     {
                         "type": "p",
@@ -540,11 +586,11 @@ const translations = {
                     },
                     {
                         "type": "arabic",
-                        "content": "لَبَّيْكَ اللَّهُمَّ بِعُمْرَةٍ"
+                        "content": "لَبَّيْكَ اللَّهُمَّ عُمْرَةً"
                     },
                     {
                         "type": "p",
-                        "content": "Labbayka Allahumma bi 'Umrah"
+                        "content": "Labbayka Allahumma 'umratan"
                     },
                     {
                         "type": "p",
@@ -552,31 +598,23 @@ const translations = {
                     },
                     {
                         "type": "p",
-                        "content": "<strong>Jika Anda khawatir tidak dapat menyelesaikan umrah karena sakit atau alasan lain, ucapkan:</strong>"
+                        "content": "<strong>Niat Bersyarat (jika khawatir ada halangan):</strong>"
                     },
                     {
                         "type": "arabic",
-                        "content": "إِنْ حَبَسَنِي حَابِسٌ فَمَحِلِّي حَيْثُ حَبَسْتَنِي"
+                        "content": "فَإِنْ حَبَسَنِي حَابِسٌ فَمَحِلِّي حَيْثُ حَبَسْتَنِي"
                     },
                     {
                         "type": "p",
-                        "content": "In habasani habisun fa mahilli haythu habastani"
+                        "content": "Fa-in habasani habisun fa-mahalli haythu habastani"
                     },
                     {
                         "type": "p",
                         "content": "<strong>Artinya:</strong> \"Jika ada halangan yang menghalangi saya, maka tempat tahallul saya adalah di mana Engkau menghalangi saya\""
                     },
                     {
-                        "type": "p",
-                        "content": "Ini adalah niat bersyarat. Jika Anda tidak dapat menyelesaikan umrah karena alasan yang sah, Anda boleh keluar dari ihram tanpa denda."
-                    },
-                    {
-                        "type": "h3",
-                        "content": "Talbiyah:"
-                    },
-                    {
-                        "type": "p",
-                        "content": "Setelah membuat niat, segera mulai membaca Talbiyah dengan keras (pria) atau pelan (wanita):"
+                        "type": "h4",
+                        "content": "Talbiyah (ucapkan sesering mungkin):"
                     },
                     {
                         "type": "arabic",
@@ -588,12 +626,16 @@ const translations = {
                     },
                     {
                         "type": "p",
-                        "content": "<strong>Artinya:</strong> \"Aku penuhi panggilan-Mu ya Allah, aku penuhi panggilan-Mu. Aku penuhi panggilan-Mu, tidak ada sekutu bagi-Mu, aku penuhi panggilan-Mu. Sesungguhnya segala puji, nikmat dan kerajaan adalah milik-Mu. Tidak ada sekutu bagi-Mu.\""
+                        "content": "<strong>Artinya:</strong> \"Aku penuhi panggilan-Mu ya Allah, aku penuhi panggilan-Mu. Aku penuhi panggilan-Mu, tidak ada sekutu bagi-Mu, aku penuhi panggilan-Mu. Sesungguhnya puji, nikmat dan kekuasaan adalah milik-Mu. Tidak ada sekutu bagi-Mu.\""
+                    },
+                    {
+                        "type": "h3",
+                        "content": "Larangan Selama Ihram:"
                     },
                     {
                         "type": "callout",
-                        "style": "note",
-                        "content": "<p><strong>Penting:</strong></p>\n            <ul>\n                <li><strong>Pria:</strong> Harus membaca Talbiyah dengan keras</li>\n                <li><strong>Wanita:</strong> Harus membaca dengan pelan sehingga hanya mereka yang bisa mendengar</li>\n                <li>Ulangi Talbiyah dengan sering sepanjang perjalanan dan umrah Anda</li>\n                <li>Lanjutkan hingga Anda mulai Tawaf (mengelilingi Ka'bah)</li>\n            </ul>"
+                        "style": "important",
+                        "content": "<p><strong>Untuk semua orang:</strong></p>\n            <ul>\n                <li>Tidak memakai wewangian atau produk berbau</li>\n                <li>Tidak memotong rambut atau kuku</li>\n                <li>Tidak melakukan hubungan seksual atau akad nikah</li>\n                <li>Tidak berburu atau membunuh serangga</li>\n            </ul>\n            <p><strong>Khusus untuk pria:</strong></p>\n            <ul>\n                <li>Tidak menutup kepala</li>\n                <li>Tidak memakai pakaian berjahit</li>\n            </ul>\n            <p><strong>Khusus untuk wanita:</strong></p>\n            <ul>\n                <li>Tidak memakai niqab (cadar) atau sarung tangan</li>\n            </ul>"
                     },
                     {
                         "type": "hr"
@@ -602,36 +644,55 @@ const translations = {
             },
             {
                 "number": "4",
-                "title": "Larangan Selama Ihram",
+                "title": "Kedatangan di Makkah",
                 "elements": [
                     {
-                        "type": "p",
-                        "content": "Setelah Anda memasuki ihram, hal-hal berikut dilarang untuk pria dan wanita:"
+                        "type": "h3",
+                        "content": "Sebelum Memasuki Makkah:"
+                    },
+                    {
+                        "type": "ul",
+                        "content": "<li><strong>Mandi (ghusl)</strong> jika memungkinkan, ini adalah sunnah Nabi ﷺ</li>\n            <li><strong>Ucapkan Talbiyah</strong> sesering mungkin</li>"
+                    },
+                    {
+                        "type": "h3",
+                        "content": "Memasuki Masjidil Haram:"
                     },
                     {
                         "type": "ol",
-                        "content": "<li><strong>Memakai wewangian atau produk beraroma:</strong>\n                <ul>\n                    <li>Tidak boleh wewangian pada tubuh atau pakaian (wewangian yang dipakai sebelum ihram tidak masalah)</li>\n                    <li>Hindari sabun, sampo, deodoran beraroma</li>\n                    <li>Hindari minyak atau krim beraroma</li>\n                </ul>\n            </li>\n            <li><strong>Memotong atau mencabut rambut dari bagian tubuh mana pun</strong></li>\n            <li><strong>Memotong kuku (jari tangan atau kaki)</strong></li>\n            <li><strong>Melakukan hubungan seksual atau aktivitas</strong></li>\n            <li><strong>Akad nikah (melamar, melaksanakan, atau menjadi saksi)</strong></li>\n            <li><strong>Berburu hewan darat atau membantu dalam berburu</strong></li>\n            <li><strong>Membunuh kutu atau serangga di tubuh Anda</strong> (jika jatuh sendiri, tidak masalah)</li>"
+                        "content": "<li><strong>Masuk dengan kaki kanan terlebih dahulu</strong></li>\n            <li><strong>Ucapkan doa untuk memasuki masjid:</strong></li>"
+                    },
+                    {
+                        "type": "arabic",
+                        "content": "بِسْمِ اللهِ، اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Bismillah, Allahumma salli 'ala Muhammad, Allahumma aftah li abwaba rahmatik"
+                    },
+                    {
+                        "type": "p",
+                        "content": "<strong>Artinya:</strong> \"Dengan nama Allah. Ya Allah, limpahkanlah shalawat kepada Muhammad. Ya Allah, bukakanlah untukku pintu-pintu rahmat-Mu.\""
                     },
                     {
                         "type": "h3",
-                        "content": "Khusus untuk Pria:"
+                        "content": "Saat Pertama Kali Melihat Ka'bah:"
                     },
                     {
-                        "type": "ul",
-                        "content": "<li><strong>Menutupi kepala</strong> dengan apa pun (topi, peci, sorban, kerudung)</li>\n            <li><strong>Memakai pakaian berjahit/ketat</strong> (kemeja, celana, pakaian dalam, kaos kaki yang menutupi mata kaki)</li>"
+                        "type": "p",
+                        "content": "Ini adalah momen yang sangat istimewa - doa Anda kemungkinan akan dikabulkan!"
                     },
                     {
-                        "type": "h3",
-                        "content": "Khusus untuk Wanita:"
+                        "type": "ol",
+                        "content": "<li><strong>Angkat tangan Anda</strong></li>\n            <li><strong>Ucapkan Allahu Akbar (Allah Maha Besar) tiga kali</strong></li>\n            <li><strong>Baca:</strong></li>"
                     },
                     {
-                        "type": "ul",
-                        "content": "<li><strong>Memakai niqab atau burqa</strong> (cadar yang diikat ke wajah)</li>\n            <li><strong>Memakai sarung tangan</strong></li>"
+                        "type": "arabic",
+                        "content": "اللَّهُمَّ زِدْ هَذَا الْبَيْتَ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَمَهَابَةً، وَزِدْ مَنْ شَرَّفَهُ وَكَرَّمَهُ مِمَّنْ حَجَّهُ أَوْ اعْتَمَرَهُ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَبِرًّا"
                     },
                     {
-                        "type": "callout",
-                        "style": "important",
-                        "content": "<p><strong>Yang DIPERBOLEHKAN:</strong></p>\n            <ul>\n                <li>Mandi dan mencuci dengan sabun tanpa wewangian</li>\n                <li>Mengganti pakaian ihram (untuk pria)</li>\n                <li>Memakai ikat pinggang, jam tangan, kacamata, cincin (tanpa wewangian)</li>\n                <li>Mengambil obat yang diperlukan</li>\n                <li>Menggunakan payung atau naungan</li>\n            </ul>"
+                        "type": "p",
+                        "content": "Allahumma zid hadha al-bayta tashrifan wa ta'dhiman wa takriman wa mahaba, wa zid man sharrafahu wa karramahu mimman hajjahu awi'tamarahu tashrifan wa ta'dhiman wa takriman wa birra"
                     },
                     {
                         "type": "hr"
@@ -640,40 +701,6 @@ const translations = {
             },
             {
                 "number": "5",
-                "title": "Memasuki Masjidil Haram dan Melihat Ka'bah",
-                "elements": [
-                    {
-                        "type": "h3",
-                        "content": "Memasuki Masjid:"
-                    },
-                    {
-                        "type": "ol",
-                        "content": "<li><strong>Masuk dengan kaki kanan terlebih dahulu</strong></li>\n            <li><strong>Ucapkan doa untuk memasuki masjid:</strong>\n                <div class=\"arabic\">بِسْمِ اللهِ، اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ</div>\n                <p class=\"transliteration\">Bismillah, Allahumma salli 'ala Muhammad, Allahumma aftah li abwaba rahmatik</p>\n                <p><strong>Artinya:</strong> \"Dengan nama Allah. Ya Allah, limpahkanlah shalawat kepada Muhammad. Ya Allah, bukakanlah untukku pintu-pintu rahmat-Mu.\"</p>\n            </li>"
-                    },
-                    {
-                        "type": "h3",
-                        "content": "Saat Pertama Kali Melihat Ka'bah:"
-                    },
-                    {
-                        "type": "arabic",
-                        "content": "<p>Ini adalah momen yang sangat istimewa - doa Anda kemungkinan akan dikabulkan!</p>\n            <ol>\n                <li><strong>Angkat tangan Anda</strong></li>\n                <li><strong>Ucapkan Allahu Akbar (Allah Maha Besar) tiga kali</strong></li>\n                <li><strong>Baca:</strong>\n                    <div class=\"arabic\">اللَّهُمَّ زِدْ هَذَا الْبَيْتَ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَمَهَابَةً، وَزِدْ مَنْ شَرَّفَهُ وَكَرَّمَهُ مِمَّنْ حَجَّهُ أَوْ اعْتَمَرَهُ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَبِرًّا"
-                    },
-                    {
-                        "type": "p",
-                        "content": "Allahumma zid hadha al-bayta tashrifan wa ta'dhiman wa takriman wa mahaba, wa zid man sharrafahu wa karramahu mimman hajjahu awi'tamarahu tashrifan wa ta'dhiman wa takriman wa birra"
-                    },
-                    {
-                        "type": "callout",
-                        "style": "note",
-                        "content": "<p><strong>Catatan:</strong> Doa saat melihat Ka'bah berasal dari praktek beberapa sahabat dan ulama, meskipun tidak diriwayatkan langsung dari Nabi ﷺ. Yang paling penting adalah membuat doa yang tulus pada momen yang diberkati ini.</p>"
-                    },
-                    {
-                        "type": "hr"
-                    }
-                ]
-            },
-            {
-                "number": "6",
                 "title": "Tawaf - Mengelilingi Ka'bah",
                 "elements": [
                     {
@@ -698,7 +725,23 @@ const translations = {
                     },
                     {
                         "type": "ol",
-                        "content": "<li><strong>Jaga Ka'bah di sisi kiri Anda</strong> saat Anda mengelilingi berlawanan arah jarum jam</li>\n            <li><strong>Pria harus melakukan Ramal di 3 putaran pertama:</strong>\n                <ul>\n                    <li>Ramal = berjalan cepat dengan langkah pendek dan cepat</li>\n                    <li>Tunjukkan kekuatan tetapi jangan berlari atau menyakiti orang lain</li>\n                    <li>Hanya di putaran 1, 2, dan 3</li>\n                    <li>Berjalan normal di putaran 4, 5, 6, dan 7</li>\n                    <li><strong>Wanita:</strong> Berjalan dengan kecepatan normal untuk semua 7 putaran</li>\n                </ul>\n            </li>\n            <li><strong>Setiap kali Anda melewati Hajar Aswad:</strong>\n                <ul>\n                    <li>Tunjuk dengan tangan kanan Anda</li>\n                    <li>Ucapkan \"Allahu Akbar\"</li>\n                    <li>Ini menandai selesainya satu putaran</li>\n                </ul>\n            </li>\n            <li><strong>Saat melewati Rukun Yamani (Sudut Yaman):</strong>\n                <ul>\n                    <li><strong>Jika memungkinkan:</strong> Sentuh dengan tangan kanan (tidak dicium)</li>\n                    <li><strong>Jika ramai:</strong> Lanjutkan saja, jangan menunjuk</li>\n                    <li>Setelah menyentuh (atau melewati) Rukun Yamani, dan sebelum mencapai Hajar Aswad, bacalah:\n                        <div class=\"arabic\">رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ</div>\n                        <p class=\"transliteration\">Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhaban-nar</p>\n                        <p><strong>Artinya:</strong> \"Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan lindungilah kami dari siksa api neraka\"</p>\n                    </li>\n                </ul>\n            </li>\n            <li><strong>Sepanjang Tawaf:</strong> Berdoa, baca Al-Quran, atau ucapkan dzikir - tidak ada doa khusus yang diwajibkan kecuali yang disebutkan di atas</li>"
+                        "content": "<li><strong>Jaga Ka'bah di sisi kiri Anda</strong> saat Anda mengelilingi berlawanan arah jarum jam</li>\n            <li><strong>Pria harus melakukan Ramal di 3 putaran pertama:</strong>\n                <ul>\n                    <li>Ramal = berjalan cepat dengan langkah pendek dan cepat</li>\n                    <li>Tunjukkan kekuatan tetapi jangan berlari atau menyakiti orang lain</li>\n                    <li>Hanya di putaran 1, 2, dan 3</li>\n                    <li>Berjalan normal di putaran 4, 5, 6, dan 7</li>\n                    <li><strong>Wanita:</strong> Berjalan dengan kecepatan normal untuk semua 7 putaran</li>\n                </ul>\n            </li>\n            <li><strong>Setiap kali Anda melewati Hajar Aswad:</strong>\n                <ul>\n                    <li>Tunjuk dengan tangan kanan Anda</li>\n                    <li>Ucapkan \"Allahu Akbar\"</li>\n                    <li>Ini menandai selesainya satu putaran</li>\n                </ul>\n            </li>\n            <li><strong>Saat melewati Rukun Yamani (Sudut Yaman):</strong>\n                <ul>\n                    <li><strong>Jika memungkinkan:</strong> Sentuh dengan tangan kanan (tidak dicium)</li>\n                    <li><strong>Jika ramai:</strong> Lanjutkan saja, jangan menunjuk</li>\n                    <li>Setelah menyentuh (atau melewati) Rukun Yamani, dan sebelum mencapai Hajar Aswad, bacalah:</li>\n                </ul>\n            </li>"
+                    },
+                    {
+                        "type": "arabic",
+                        "content": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhaban-nar"
+                    },
+                    {
+                        "type": "p",
+                        "content": "<strong>Artinya:</strong> \"Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan lindungilah kami dari siksa api neraka\""
+                    },
+                    {
+                        "type": "ol",
+                        "content": "<li><strong>Sepanjang Tawaf:</strong> Berdoa, baca Al-Quran, atau ucapkan dzikir - tidak ada doa khusus yang diwajibkan kecuali yang disebutkan di atas</li>"
                     },
                     {
                         "type": "callout",
@@ -711,15 +754,37 @@ const translations = {
                     },
                     {
                         "type": "ol",
-                        "content": "<li><strong>Pria:</strong> Tutup kedua bahu lagi (lepas Idtiba)</li>\n            <li><strong>Lanjutkan untuk shalat 2 rakaat di belakang Maqam Ibrahim</strong> (jika memungkinkan dan tidak ramai) atau di mana saja di Haram:\n                <ul>\n                    <li>Baca Surah Al-Kafirun (109) di rakaat pertama</li>\n                    <li>Baca Surah Al-Ikhlas (112) di rakaat kedua</li>\n                    <li>Anda boleh membaca surah lain jika tidak hafal ini</li>\n                </ul>\n            </li>"
+                        "content": "<li><strong>Pria:</strong> Tutup kedua bahu lagi (lepas Idtiba)</li>\n            <li><strong>Lanjutkan untuk shalat 2 rakaat di belakang Maqam Ibrahim</strong> (jika memungkinkan dan tidak ramai) atau di mana saja di Haram</li>"
                     },
                     {
-                        "type": "h3",
-                        "content": "Setelah 2 Rakaat:"
+                        "type": "hr"
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "title": "Air Zamzam",
+                "elements": [
+                    {
+                        "type": "p",
+                        "content": "Setelah menyelesaikan Tawaf dan shalat 2 rakaat, minumlah air Zamzam secukupnya."
                     },
                     {
-                        "type": "ol",
-                        "content": "<li><strong>Jika memungkinkan, pergi ke air Zamzam:</strong>\n                <ul>\n                    <li>Minum sampai puas</li>\n                    <li>Ucapkan: <div class=\"arabic\">اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا وَاسِعًا وَشِفَاءً مِنْ كُلِّ دَاءٍ</div>\n                    <p class=\"transliteration\">Allahumma inni as'aluka 'ilman nafi'a, wa rizqan wasi'a, wa shifa'an min kulli da</p>\n                    <p><strong>Artinya:</strong> \"Ya Allah, aku memohon kepada-Mu ilmu yang bermanfaat, rezeki yang luas, dan kesembuhan dari setiap penyakit\"</p></li>\n                    <li>Anda boleh menuangkan air di kepala Anda</li>\n                    <li>Buat doa apa pun yang Anda inginkan - Nabi ﷺ bersabda: \"Air Zamzam adalah untuk apa yang diminum untuk itu\"</li>\n                </ul>\n            </li>\n            <li><strong>Kembali ke Hajar Aswad (jika memungkinkan):</strong>\n                <ul>\n                    <li>Sentuh atau cium sekali lagi</li>\n                    <li>Jika ramai, lanjutkan ke Sa'i</li>\n                </ul>\n            </li>"
+                        "type": "arabic",
+                        "content": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا وَاسِعًا وَشِفَاءً مِنْ كُلِّ دَاءٍ"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Allahumma inni as'aluka 'ilman nafi'a, wa rizqan wasi'a, wa shifa'an min kulli da'"
+                    },
+                    {
+                        "type": "p",
+                        "content": "<strong>Artinya:</strong> \"Ya Allah, aku memohon kepada-Mu ilmu yang bermanfaat, rezeki yang luas, dan kesembuhan dari setiap penyakit\""
+                    },
+                    {
+                        "type": "callout",
+                        "style": "tip",
+                        "content": "<p><strong>Tip:</strong> Nabi ﷺ bersabda: \"Air Zamzam adalah untuk apa yang diminum untuk itu\" - jadi minumlah dengan niat yang tulus dan berdoalah.</p>"
                     },
                     {
                         "type": "hr"
@@ -1124,7 +1189,23 @@ const translations = {
                     },
                     {
                         "type": "ol",
-                        "content": "<li><strong>Начните ходить против часовой стрелки</strong> вокруг Каабы, держа её слева от себя</li>\n            <li><strong>Для мужчин - Рамаль (быстрая ходьба):</strong>\n                <ul>\n                    <li>В течение первых трёх кругов мужчины должны идти быстро маленькими шагами</li>\n                    <li>Последние четыре круга - обычной походкой</li>\n                    <li>Женщины идут обычным темпом все семь кругов</li>\n                </ul>\n            </li>\n            <li><strong>Каждый раз, когда вы достигаете Йеменского угла (Ар-Рукн аль-Йамани):</strong>\n                <ul>\n                    <li>Если возможно, прикоснитесь к нему правой рукой (без целования)</li>\n                    <li>Если нет, продолжайте - НЕ указывайте на него</li>\n                    <li>Между Йеменским углом и Чёрным камнем скажите:\n                        <div class=\"arabic\">رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ</div>\n                        <p class=\"transliteration\">Раббана атина фид-дунья хасанатан ва филь-ахирати хасанатан ва кина 'азабан-нар</p>\n                        <p>\"Господь наш! Даруй нам добро в этом мире и добро в Последней жизни и защити нас от мучений Огня!\" (Коран 2:201)</p>\n                    </li>\n                </ul>\n            </li>\n            <li><strong>Каждый раз, когда вы проходите мимо Чёрного камня:</strong>\n                <ul>\n                    <li>Поцелуйте его, прикоснитесь к нему, или укажите на него (как в начале)</li>\n                    <li>Скажите: <strong>اللهُ أَكْبَرُ</strong> (Аллаху Акбар)</li>\n                    <li>Это отмечает завершение одного круга</li>\n                    <li><strong>На 7-м круге:</strong> Просто укажите на Чёрный камень без произнесения Аллаху Акбар</li>\n                </ul>\n            </li>\n            <li><strong>На протяжении тавафа:</strong> Занимайтесь дуа, зикром (поминанием Аллаха), чтением Корана - это время близости к Аллаху</li>"
+                        "content": "<li><strong>Начните ходить против часовой стрелки</strong> вокруг Каабы, держа её слева от себя</li>\n            <li><strong>Для мужчин - Рамаль (быстрая ходьба):</strong>\n                <ul>\n                    <li>В течение первых трёх кругов мужчины должны идти быстро маленькими шагами</li>\n                    <li>Последние четыре круга - обычной походкой</li>\n                    <li>Женщины идут обычным темпом все семь кругов</li>\n                </ul>\n            </li>\n            <li><strong>Каждый раз, когда вы достигаете Йеменского угла (Ар-Рукн аль-Йамани):</strong>\n                <ul>\n                    <li>Если возможно, прикоснитесь к нему правой рукой (без целования)</li>\n                    <li>Если нет, продолжайте - НЕ указывайте на него</li>\n                    <li><strong>Между Йеменским углом и Чёрным камнем скажите:</strong></li>\n                </ul>\n            </li>"
+                    },
+                    {
+                        "type": "arabic",
+                        "content": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Раббана атина фид-дунья хасанатан ва филь-ахирати хасанатан ва кина 'азабан-нар"
+                    },
+                    {
+                        "type": "p",
+                        "content": "\"Господь наш! Даруй нам добро в этом мире и добро в Последней жизни и защити нас от мучений Огня!\" (Коран 2:201)"
+                    },
+                    {
+                        "type": "ol",
+                        "content": "<li><strong>Каждый раз, когда вы проходите мимо Чёрного камня:</strong>\n                <ul>\n                    <li>Поцелуйте его, прикоснитесь к нему, или укажите на него (как в начале)</li>\n                    <li>Скажите: <strong>اللهُ أَكْبَرُ</strong> (Аллаху Акбар)</li>\n                    <li>Это отмечает завершение одного круга</li>\n                    <li><strong>На 7-м круге:</strong> Просто укажите на Чёрный камень без произнесения Аллаху Акбар</li>\n                </ul>\n            </li>\n            <li><strong>На протяжении тавафа:</strong> Занимайтесь дуа, зикром (поминанием Аллаха), чтением Корана - это время близости к Аллаху</li>"
                     },
                     {
                         "type": "callout",
