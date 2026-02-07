@@ -1,0 +1,289 @@
+:root {
+    --primary: #10b981;
+    --primary-dark: #059669;
+    --secondary: #3b82f6;
+    --accent: #fbbf24;
+    --danger: #ef4444;
+    --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+    --card-bg: linear-gradient(to bottom, #1e293b, #0f172a);
+    --text-main: #e4e4e7;
+    --text-muted: #94a3b8;
+    --border: #334155;
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-arabic: 'Traditional Arabic', 'Arabic Typesetting', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    color: var(--text-main);
+    background: var(--bg-gradient);
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--primary);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lang-switcher {
+    display: flex;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 4px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+}
+
+.lang-btn {
+    padding: 6px 12px;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.lang-btn.active {
+    background: var(--primary);
+    color: white;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #fff, #94a3b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+}
+
+.bismillah-card {
+    background: rgba(16, 185, 129, 0.05);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    border-radius: 24px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    animation: fadeIn 1s ease-out;
+}
+
+.arabic {
+    font-family: var(--font-arabic);
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 15px;
+    direction: rtl;
+}
+
+.transliteration {
+    font-style: italic;
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.meaning {
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.section-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+}
+
+.step-indicator {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: rgba(16, 185, 129, 0.1);
+    color: var(--primary);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 800;
+    border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: var(--secondary);
+    margin-bottom: 25px;
+    padding-right: 50px; /* Space for step indicator */
+}
+
+h3 {
+    color: var(--primary);
+    margin: 30px 0 15px;
+    font-size: 1.3rem;
+}
+
+h4 {
+    color: #a78bfa;
+    margin: 20px 0 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #cbd5e1;
+}
+
+ul, ol {
+    margin: 15px 0 25px 25px;
+    color: #cbd5e1;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: var(--accent);
+}
+
+.callout {
+    padding: 20px;
+    border-radius: 16px;
+    margin: 25px 0;
+    border-left: 5px solid;
+    position: relative;
+}
+
+.callout.note {
+    background: rgba(251, 191, 36, 0.05);
+    border-color: var(--accent);
+}
+
+.callout.tip {
+    background: rgba(59, 130, 246, 0.05);
+    border-color: var(--secondary);
+}
+
+.callout.important {
+    background: rgba(239, 68, 68, 0.05);
+    border-color: var(--danger);
+}
+
+.callout.success {
+    background: rgba(16, 185, 129, 0.05);
+    border-color: var(--primary);
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 30px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 20px;
+    border-top: 1px solid var(--border);
+    margin-top: 50px;
+    background: rgba(15, 23, 42, 0.5);
+}
+
+.footer-arabic {
+    font-family: var(--font-arabic);
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.content-fade {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Mobile Optimizations */
+@media (max-width: 640px) {
+    .container {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .section-card {
+        padding: 25px;
+    }
+    
+    .step-indicator {
+        position: static;
+        margin-bottom: 15px;
+    }
+    
+    h2 {
+        padding-right: 0;
+        font-size: 1.5rem;
+    }
+    
+    .arabic {
+        font-size: 1.8rem;
+    }
+}
