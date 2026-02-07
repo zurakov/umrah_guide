@@ -4,49 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Umrah Guide - Multilingual</title>
+    <title>Umrah Guide</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Inter:wght@300;400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <header>
-        <div class="header-content">
-            <a href="#" class="logo">Umrah Guide</a>
-            <div style="display: flex; align-items: center; gap: 15px;">
-                <div class="lang-switcher">
-                    <button class="lang-btn active" onclick="switchLang('en')">EN</button>
-                    <button class="lang-btn" onclick="switchLang('id')">ID</button>
-                    <button class="lang-btn" onclick="switchLang('ru')">RU</button>
-                </div>
-                <button id="menu-toggle" class="menu-toggle" aria-label="Toggle Navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+        <div class="header-inner">
+            <span class="logo">☪ Umrah Guide</span>
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="id">ID</button>
+                <button class="lang-btn" data-lang="ru">RU</button>
             </div>
         </div>
     </header>
 
-    <div class="container main-layout">
-        <nav id="side-nav" class="side-nav">
-            <!-- Navigation links will be injected here -->
-        </nav>
-        <main id="content">
-            <!-- Content will be injected here -->
-        </main>
-    </div>
+    <main id="app">
+        <!-- Content rendered by JS -->
+    </main>
 
-    <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
-
-    <footer>
-        <div id="footer-content">
-            <!-- Footer content injected by app.js -->
-        </div>
+    <footer id="footer">
+        <!-- Footer rendered by JS -->
     </footer>
 
     <script src="data.js"></script>
